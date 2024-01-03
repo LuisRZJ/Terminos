@@ -1,0 +1,709 @@
+<!--Version 2-->
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+  
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Términos y condiciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+   <!-- Iconos bootstrap-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+   
+   <style>
+   
+   
+   .line1 {
+    text-decoration: underline;
+    text-decoration-color: #FFC107; 
+    }
+       
+    
+    body {
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dark-mode body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    color: #2B2B2B;
+}
+
+.dark-mode .container {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+        
+        
+           
+    .mar {
+      padding: 10px;
+    }
+
+
+/* Rectangulo transparente con desenfoque (header) */
+.rectangle2 {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(250, 104, 0, 0.3);
+    backdrop-filter: blur(5px);
+    z-index: 10;
+}
+    
+    
+
+ /*rectángulo transparente con desenfoque*/
+        .rectangle {
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            width: 100%;
+            height: 46px;
+          border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            z-index: 10;
+        }
+        
+      
+        
+        footer {
+    background-color: Gainsboro;
+    color: Black;
+    padding: 10px;
+    flex-shrink: 0;
+}
+    
+    footer a {
+    color: DimGray;
+    text-decoration: none;
+    padding: 2px;
+}
+
+footer a:hover {
+    border-bottom: 2px solid Black;
+}    
+   
+   
+    
+   /* SECCIONES */
+    
+    #seccion1 {
+    scroll-margin-top: 50px;
+    transition: background-color 0.5s;
+}
+
+#seccion1.resaltado {
+    background-color: #C0C0C0; 
+    }
+    
+    #seccion2 {
+    scroll-margin-top: 50px;
+    transition: background-color 0.5s;
+}
+
+#seccion2.resaltado2 {
+    background-color: #C0C0C0; 
+    } 
+  
+    #seccion3 {
+    scroll-margin-top: 50px;
+    transition: background-color 0.5s;
+}
+
+#seccion3.resaltado3 {
+    background-color: #C0C0C0; 
+    } 
+      
+   
+    /* Estilos para el botón ir arriba */
+    .fixed-button {
+      position: fixed;
+      bottom: 0px; /* Ajusta la posición vertical según tus necesidades */
+      right: 23px; /* Ajusta la posición horizontal según tus necesidades */
+      width: 50px;
+      height: 45px;
+      background-color: rgba(0, 0, 0, 0.0); 
+      backdrop-filter: blur(0.1px);
+      border-radius: 1px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 45px;
+      transition: transform 0.3s;
+      z-index: 11;
+    }
+    
+    /* Estilo para el texto del botón después de ser visitado */
+    .fixed-button:visited {
+      color: white;
+    }
+    
+    /* Estilo para desactivar la interacción del usuario */
+    .disable-interaction {
+      pointer-events: none;
+    }  
+    
+    
+    /* Estilos para el botón ir abajo */
+    .fixed-button2 {
+      position: fixed;
+      bottom: 0px; /* Ajusta la posición vertical según tus necesidades */
+      right: 67px; /* Ajusta la posición horizontal según tus necesidades */
+      width: 50px;
+      height: 45px;
+      background-color: rgba(0, 0, 0, 0.0); 
+      backdrop-filter: blur(0.1px);
+      border-radius: 1px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 45px;
+      transition: transform 0.3s;
+      z-index: 11;
+    }
+    
+    /* Estilo para el texto del botón después de ser visitado */
+    .fixed-button2:visited2 {
+      color: white;
+    }
+    
+    /* Estilo para desactivar la interacción del usuario */
+    .disable-interaction2 {
+      pointer-events: none;
+    }
+    
+    /* Estilos para el botón ir a pagina principal */
+    .fixed-button3 {
+      position: fixed;
+      bottom: 0px; /* Ajusta la posición vertical según tus necesidades */
+      right: 425px; /* Ajusta la posición horizontal según tus necesidades */
+      width: 50px;
+      height: 45px;
+      background-color: rgba(0, 0, 0, 0.0); 
+      backdrop-filter: blur(0.1px);
+      border-radius: 1px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 45px;
+      transition: transform 0.3s;
+      z-index: 11;
+    }
+    
+    /* Estilo para el texto del botón después de ser visitado */
+    .fixed-button3:visited3 {
+      color: white;
+    }
+    
+    /* Estilo para desactivar la interacción del usuario */
+    .disable-interaction3 {
+      pointer-events: none;
+    }  
+    
+    
+    
+    /* Estilos para el botón modo oscuro*/
+    .fixed-button4 {
+      position: fixed;
+      bottom: 0px; /* Ajusta la posición vertical según tus necesidades */
+      right: 325px; /* Ajusta la posición horizontal según tus necesidades */
+      width: 50px;
+      height: 50px;
+      border: none;
+      background-color: rgba(0, 0, 0, 0.0);
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 45px;
+      z-index: 13;
+    }
+    
+    
+    /* Estilos para el botón menu*/
+    .fixed-button5 {
+      position: fixed;
+      bottom: 0px; /* Ajusta la posición vertical según tus necesidades */
+      right: 375px; /* Ajusta la posición horizontal según tus necesidades */
+      width: 50px;
+      height: 40px;
+      border: none;
+      background-color: rgba(0, 0, 0, 0.0);
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 45px;
+      z-index: 13;
+    }
+    
+    
+    #rectangulo-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    backdrop-filter: blur(5px); /* Desenfoque */
+    z-index: 15; /* Asegura que esté por delante de la página */
+  }
+
+    #rectangulo-container {
+    display: none;
+    position: fixed;
+    bottom: 500px; 
+    right: 375px;
+    top: 50%;
+    left: 30%;
+    width: 288px;
+    height: 940px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombreado */
+    z-index: 16; /* Asegura que esté por delante del overlay */
+    overflow-y: auto; /* Agrega una barra de desplazamiento si el contenido es demasiado largo */
+  }
+
+  /* Estilos adicionales para el botón de cierre */
+  #boton-cerrar {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+    
+    
+    .boton2 {
+      background-color: #000000;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+    
+    
+    /* Estilos para la barra de progreso */
+.progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7px;
+  z-index: 3;
+  overflow: hidden; /* Añadido para ocultar el desbordamiento de la barra */
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: red; /* Cambiado a rojo desde el principio */
+  width: 0;
+  z-index: 3;
+  transition: width 0.01s ease-in-out;
+    }
+    
+    
+   .fixed-container {
+  position: fixed;
+  margin-top: -10px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  z-index: 16;
+}
+
+.fixed-image img {
+  width: 50px; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: auto;
+}
+
+.fixed-text {
+  /* Puedes ajustar estos estilos según tu preferencia */
+  margin-left: 5px;
+  margin-top: 10px;
+}
+ 
+          
+   </style> 
+    
+    
+  </head>
+  <body>
+  
+  
+  
+  <!-- PAGINA VISIBLE -->
+  
+  <div id="top">
+    
+    <!-- Barra de progreso -->
+  <div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+    .
+  <!-- Contenido de tu página -->
+</div>
+       
+    <!--Header-->
+    
+ <div class="fixed-container">
+    <div class="fixed-image">
+      <img src="https://media.discordapp.net/attachments/1081755978082566237/1180356972076347564/ClipDropImage1699219993324.png?ex=65a20a18&is=658f9518&hm=19f9ba9744c25ef12821b6e75495c5b87ee441e46c63ac8473a426be21cd4860&" alt="CGN logo.">
+    </div>
+    <div class="fixed-text">
+      <h3>Social club</h3>
+    </div>
+  </div>
+    
+  
+  <!--rectangulo transparente con desenfoque (header)-->
+<div class="rectangle2"></div>
+  
+  <!--rectangulo transparente con desenfoque-->
+<div class="rectangle"></div>
+
+    <!-- Menu-->
+    <div id="rectangulo-overlay"></div>
+
+<h1 style="text-align: center; font-size: 3em; margin-top: 50px;">Términos y condiciones</h1>
+    
+    <br>
+    
+    <div class="mar">
+    
+    <a href="#"><button type="button" class="btn btn-outline-primary">Atención al usuario</button></a>
+    
+    <a href="#"><button type="button" class="btn btn-outline-primary">MC</button></a>
+  <br>  
+    <span class="badge text-bg-warning">Proximamente...</span>
+    
+    
+    <hr>
+    
+    <div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Tabla de contenidos
+  </a>
+
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" onclick="resaltarSeccion()" href="#seccion1">Introducción</a></li> 
+    <li><a class="dropdown-item" onclick="resaltarSeccion2()" href="#seccion2">Terminos y condiciones</a></li>
+    <li><a class="dropdown-item" onclick="resaltarSeccion3()" href="#seccion3">Medidas aplicables</a></li>
+  </ul>
+</div>
+
+    <hr>
+    
+    <section id="seccion1">
+    <h1>¿Porque son necesarios?</h1>
+    
+    <p>En nuestro compromiso constante de ofrecerle un servicio online de la más alta calidad, es imperativo establecer pautas claras y transparentes para garantizar una experiencia segura y satisfactoria para todos nuestros usuarios. Es por ello que hemos desarrollado cuidadosamente los <u class="line1">Términos y Condiciones que rigen el acceso y uso de nuestro servicio.</u></p>
+    
+    <p>Estos términos no solo actúan como un marco legal para nuestras interacciones, sino que también sirven como una guía esencial para comprender plenamente las expectativas y responsabilidades tanto de los usuarios como de nuestra empresa. Al conocer y aceptar estos términos, usted está participando activamente en la creación de un entorno colaborativo y de confianza.</p>
+    
+    <p>Dentro de los Términos y Condiciones, abordamos aspectos cruciales, como la privacidad de los datos, las responsabilidades de ambas partes y los límites de nuestro servicio. Este documento no solo protege sus derechos como usuario, sino que también establece las bases para una relación mutuamente beneficiosa.</p>
+    
+    <p><u class="line1">Le instamos encarecidamente a revisar detenidamente estos términos antes de utilizar nuestro servicio.</u> Su comprensión y aceptación son fundamentales para asegurar una experiencia armoniosa y sin contratiempos. Además, estamos a su disposición para cualquier pregunta o aclaración que pueda necesitar.</p>
+    
+    <p>Agradecemos su compromiso con la transparencia y la cooperación al embarcarse en esta experiencia con nosotros. Juntos, podemos crear un entorno digital sólido y confiable para todos nuestros usuarios.</p>
+    
+    </section>
+    
+    <br>
+    
+    <section id="seccion2">
+        
+      <h1>Términos y condiciones</h1> 
+      
+      <p>Bienvenido! Al utilizar este servicio, usted acepta los términos y condiciones enumerados en esta página (los "Términos de servicio"), que podemos actualizar periódicamente. <br> <br>
+
+Cualquier situación que involucre tu permiso para encender el servidor; y provoque un incumplimiento a las reglas generales y/o a las reglas del servidor será analizada y resulta en base a lo ocurrido y a las reglas ya mencionadas. <br> <br>
+
+Es tu responsabilidad, como persona capaz de encender el servidor, de estar al tanto de todas las reglas y normas aplicables y de estos términos y condiciones, así como de cualquier cambio que estás partes puedan experimentar. <br> <br>
+
+Al usar nuestro servicio, aceptas estos términos y condiciones, así como también eres consiente de que el permiso se te podrá retirar a nuestra discreción en caso de que detectemos algún potencial incumplimiento a estos términos de servicio. <br> <br>
+
+Usted acepta indemnizar, defender y eximir de responsabilidad a la comunidad, sus afiliados, funcionarios, directores, administradores, consultores y agentes de cualquiera y todos los reclamos, responsabilidades, daños y/o costos de terceros que surjan. de su uso de nuestros servicios, su violación de los Términos de Servicio o su infracción, o la infracción por parte de cualquier otro usuario de su cuenta. Los Términos de Servicio redundarán en beneficio de los sucesores, cesionarios y licenciatarios de la comunidad. <br> <br>
+
+Estos Términos de Servicio constituyen el acuerdo completo entre las partes con respecto al tema del presente y reemplazan y reemplazarán todos los entendimientos o acuerdos anteriores o contemporáneos, escritos u orales, con respecto a dicho tema. Cualquier renuncia a cualquier disposición de los Términos de servicio será efectiva únicamente si se realiza por escrito y está firmada por el dueño de la comunidad.</p> 
+            
+    </section>
+    
+    <br>
+    
+    <section id="seccion3">
+        
+     <h2>Suspender o cancelar tu acceso al servicio</h2>   
+     
+     <p>Nos reservamos el derecho de suspender o cancelar tu acceso al servicio o de eliminar tu cuenta de la comunidad en cualquiera de estos casos:</p>
+     
+     
+     
+    <ol>
+  <li>Incumples estos términos en una o más ocasiones.</li>
+      <br>
+  <li>Si estamos obligados a hacerlo para cumplir con estos términos de servicio.</li>
+      <br>
+  <li>Si tenemos razones suficientes para creer que tu conducta provoca daños o incurre en responsabilidades para un usuario, un tercero o la comunidad.</li>
+</ol>
+             
+    </section>
+      
+      <button class="fixed-button4" id="modoBtn"><i class="bi bi-cloud-sun"></i></button>
+      
+      <!--<button id="modoBtn">Cambiar Modo2</button>-->
+    
+    <hr>
+    
+      <!-- Div de la clase para dar margen a la pagina (.mar)-->
+    </div>
+    
+    
+    <footer id="abajo">
+        <h5 style="text-align: center">Social club | 2021-2024</h5>
+        
+        <strong style="text-align: left">Recursos</strong>
+        <br>
+        <a href="https://socialclubcj.blogspot.com/">Pagina principal</a> <br>
+        <a href="https://socialclubcj.blogspot.com/p/conoce-el-servidor-de-discord.html">Conoce el servidor de discord</a> <br>
+        <a href="https://socialclubcj.blogspot.com/2023/09/servidor-minecraft-bedrock.html">El servidor de minecraft bedrock</a> <br>
+        <a href="https://socialclubcj.blogspot.com/2023/03/quieres-ser-admin.html">Ser administrador</a> <br>
+        <a href="https://socialclubcj.blogspot.com/search/label/Reglas">Reglas generales</a> <br>
+        
+        <br>
+        
+        <strong style="text-align: left">Comunidad</strong>
+        <br>
+        <a href="https://discord.gg/UvbjCF4sRw">Servidor discord</a> <br>
+        <a href="https://t.me/+rq9bHVWmtMY5ZDRh">Grupo telegram</a> <br>
+        <a href="https://whatsapp.com/channel/0029Va4ogEdId7nHp1VNXT3e">Canal oficial whatsapp</a> <br>
+        <a href="https://t.me/community_gr">Comunidad telegram</a> <br>
+        <br> <br> 
+    </footer>
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    
+  
+ 
+ 
+  <script>
+  
+ function resaltarSeccion() {
+    var seccion = document.getElementById('seccion1');
+    seccion.classList.add('resaltado');
+    
+    // Después de un tiempo, elimina la clase 'resaltado' para quitar el resaltado
+    setTimeout(function() {
+        seccion.classList.remove('resaltado');
+    }, 700); // Cambia este valor si deseas que el resaltado dure más o menos tiempo
+ } 
+  
+</script>
+
+ <script>
+  
+ function resaltarSeccion2() {
+    var seccion = document.getElementById('seccion2');
+    seccion.classList.add('resaltado2');
+    
+    // Después de un tiempo, elimina la clase 'resaltado' para quitar el resaltado
+    setTimeout(function() {
+        seccion.classList.remove('resaltado2');
+    }, 700); // Cambia este valor si deseas que el resaltado dure más o menos tiempo
+ } 
+  
+</script>
+
+ <script>
+  
+ function resaltarSeccion3() {
+    var seccion = document.getElementById('seccion3');
+    seccion.classList.add('resaltado3');
+    
+    // Después de un tiempo, elimina la clase 'resaltado' para quitar el resaltado
+    setTimeout(function() {
+        seccion.classList.remove('resaltado3');
+    }, 700); // Cambia este valor si deseas que el resaltado dure más o menos tiempo
+ } 
+  
+</script>
+
+
+<script>
+  
+  const modoBtn = document.getElementById('modoBtn');
+const body = document.body;
+
+// FunciÃ³n para detectar el modo oscuro en el sistema
+function detectarModoOscuro() {
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+}
+
+// FunciÃ³n para aplicar el modo oscuro
+function aplicarModoOscuro() {
+    if (detectarModoOscuro()) {
+        body.classList.add('dark-mode');
+        cambiarColores(true);
+    }
+}
+
+// FunciÃ³n para cambiar los colores
+function cambiarColores(modoOscuro) {
+    const backgroundColor = modoOscuro ? '#1D1D1D' : '#FFFFFF';
+    const textColor = modoOscuro ? '#FFFFFF' : '#1D1D1D';
+
+    body.style.backgroundColor = backgroundColor;
+    body.style.color = textColor;
+}
+
+// Evento clic en el botÃ³n para cambiar el modo
+modoBtn.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+    const modoOscuro = body.classList.contains('dark-mode');
+    cambiarColores(modoOscuro);
+});
+
+// Aplicar automÃ¡ticamente el modo oscuro si estÃ¡ activado en el sistema
+aplicarModoOscuro();
+   
+  </script>
+
+
+<script>
+  function mostrarRectangulo() {
+    document.getElementById("rectangulo-overlay").style.display = "block";
+    document.getElementById("rectangulo-container").style.display = "flex";
+    document.body.style.overflow = "hidden"; /* Desactivar el desplazamiento de la página */
+  }
+
+  function cerrarRectangulo() {
+    document.getElementById("rectangulo-overlay").style.display = "none";
+    document.getElementById("rectangulo-container").style.display = "none";
+    document.body.style.overflow = "auto"; /* Reactivar el desplazamiento de la página */
+  }
+</script>
+
+
+<!-- JS para la barra de progreso -->
+ <script>
+  window.addEventListener('scroll', updateProgressBar);
+
+function updateProgressBar() {
+  const progressBar = document.getElementById('progressBar');
+  const totalHeight = document.body.scrollHeight - window.innerHeight;
+  const scrolledHeight = window.scrollY;
+  const percentageScrolled = (scrolledHeight / totalHeight) * 100;
+
+  // Cambiar ancho gradualmente mientras se desplaza
+  progressBar.style.width = percentageScrolled + '%';
+}
+  </script> 
+  
+
+
+<div id="rectangulo-container">
+  <div id="rectangulo">
+    <!-- Contenido dentro del rectángulo -->
+
+    <div class="container">
+   <img src="https://media.discordapp.net/attachments/1081755978082566237/1180356972076347564/ClipDropImage1699219993324.png?ex=65a20a18&is=658f9518&hm=19f9ba9744c25ef12821b6e75495c5b87ee441e46c63ac8473a426be21cd4860&" alt="CGN" align="left" width="50" style="margin-bottom: -10px;">
+<h2 style="display:inline-block; margin-top: 12px;">SOCIAL CLUB</h2>
+    
+    <br><br>
+    <p>Estamos trabajando arduamente para brindarles contenido de calidad, y pronto podrán disfrutar de la versión completa.<br><br>Agradecemos su paciencia y les prometemos una experiencia enriquecedora en breve. ¡Estén atentos para más actualizaciones!</p>   
+
+   
+    
+    
+    <!-- Botón para cerrar el rectángulo -->
+    <button class="boton2" id="boton-cerrar" onclick="cerrarRectangulo()">Cerrar</button>
+  </div>
+</div>
+  
+</div>
+
+
+
+
+
+
+
+<!-- Botón ir arriba -->
+  <a class="fixed-button" href="#top">
+    <i class="bi bi-arrow-up-square"></i>
+  </a>
+
+<!-- Botón ir abajo -->
+  <a class="fixed-button2" href="#abajo">
+    <i class="bi bi-arrow-down-square"></i>
+  </a>
+
+<!-- Botón ir a pagina principal -->
+  <a class="fixed-button3" href="https://socialclubcj.blogspot.com/">
+    <i class="bi bi-house"></i>
+  </a>
+
+<!-- Botón modo oscuro 
+  <button class="fixed-button4" id="modoBtn">
+    <i class="bi bi-cloud-sun"></i>
+  </button>-->
+
+<!-- Botón menu-->
+  <button class="fixed-button5" onclick="mostrarRectangulo()">
+   <i class="bi bi-list"></i>
+  </button>
+
+ 
+  </body>
+</html>
